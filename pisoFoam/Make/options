@@ -1,0 +1,15 @@
+EXE_INC = \
+    -I$(WM_PROJECT_USER_DIR)/src/turbulenceModels/incompressible/turbulenceModel \
+    -I$(LIB_SRC)/transportModels \
+    -I$(LIB_SRC)/transportModels/incompressible/singlePhaseTransportModel \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(WM_PROJECT_USER_DIR)/src/turbulenceModels/incompressible/LES/lnInclude \
+    -I$(WM_PROJECT_USER_DIR)/src/turbulenceModels/incompressible/RAS/lnInclude  -g
+
+EXE_LIBS = \
+    $(FOAM_USER_LIBBIN)/libincompressibleTurbulenceModel_yang.so \
+    -lincompressibleTransportModels \
+    -lfiniteVolume \
+    -lmeshTools \
+    $(FOAM_USER_LIBBIN)/libincompressibleLESModels_yang.so \
+    $(FOAM_USER_LIBBIN)/libincompressibleRASModels_yang.so -g
