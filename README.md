@@ -1,3 +1,5 @@
+### Checkout my CONFERENCE POSTER [turML Model Poster.pdf](https://github.com/fyang235/Deep-Learning-Turbulence-model/blob/master/turML%20Model%20Poster.pdf) for more details.  
+
 # Deep-Learning-Turbulence-model
 Use deep learning to learn a turbulence model from high fedelity data. The model can reasonably predict other turbulent flows.  
 
@@ -19,6 +21,5 @@ We combine [OpenFOAM](https://www.openfoam.com/) C++ code with deep neural netwo
 ![](https://github.com/fyang235/Deep-Learning-Turbulence-model/blob/master/gif/I3.gif)    
 
 
-### Checkout the [turML Model Poster.pdf](https://github.com/fyang235/Deep-Learning-Turbulence-model/blob/master/turML%20Model%20Poster.pdf) file for details.  
 
 Enjoy!
